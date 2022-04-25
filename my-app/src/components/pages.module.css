@@ -1,0 +1,61 @@
+.wrap {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	margin-top: 20px;
+	margin-left: 50px;
+}
+
+.months {
+	width: 50%;
+	height: 100%;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.months li {
+	display: flex;
+	margin-bottom: 20px;
+	list-style: none;
+	height: 40px;
+	width: 120px;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: aliceblue;
+	border-radius: 20px 20px 20px 20px;
+	opacity: 0.8;
+	font-weight: 700;
+}
+.users {
+	width: 50%;
+	height: 100%;
+	text-align: center;
+	color: width;
+}
+
+.users li {
+	margin-bottom: 20px;
+	line-height: 10px;
+	color: rgb(41, 40, 40);
+	font-size: 20px;
+	line-height: 20px;
+	font-weight: 500;
+	text-align: left;
+	width: 100%;
+}
+.grey {
+	background-color: grey;
+}
+.blue {
+	background-color: rgb(52, 52, 233);
+}
+.green {
+	background-color: green;
+}
+.red {
+	background-color: red;
+}
+
+.months li:hover {
+	opacity: 1;
+	transform: scale(1.1);
+}
